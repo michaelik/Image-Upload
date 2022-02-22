@@ -1,6 +1,6 @@
 # Image Upload with 00PHP and MYSQL
 
-This is a simple image uploader build to demonstrate the magic of oophp and mysql.
+This is a simple image uploader built to demonstrate the magic of oophp and mysql.
 
 ## Authors
 

@@ -1,6 +1,6 @@
 {
-    "name": "michaelik/ImgUpload.php",
-    "description": "A simple image upload created for development purpose, and use for uploading single image file.",
+    "name": "michaelik/Image-Upload",
+    "description": "A simple image upload created for development purpose, and used for uploading a single image file.",
     "type": "library",
     "license": "GPL-2.0-only",
     "authors": [
