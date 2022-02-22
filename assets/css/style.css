@@ -1,0 +1,27 @@
+.container .col-lg-11{
+	padding-left: 0px !important;
+} 
+.container .col-lg-1{
+	width: 95px;
+	padding-right: 0px !important;
+	padding-left: 45px;
+} 
+.container .col-xs-1{
+    float: right !important;
+}
+.modal p{
+	margin-bottom: 0px !important;
+}
+@media (min-width: 992px) {
+	.container .col-md-10{
+	    padding-right: inherit;
+	}
+	.container .col-md-1{
+		float: right !important;
+	}
+}
+@media (min-width: 768px) {
+    .container .col-sm-1{
+		float: right !important;
+	}	
+}

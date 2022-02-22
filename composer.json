@@ -1,0 +1,20 @@
+{
+    "name": "michaelik/ImgUpload.php",
+    "description": "A simple image upload created for development purpose, and use for uploading single image file.",
+    "type": "library",
+    "license": "GPL-2.0-only",
+    "authors": [
+        {
+            "name": "michael ikechukwu",
+            "email": "mikeikechi3@gmail.com"
+        }
+    ],
+    "support":{
+        "email":"mikeikechi3@gmail.com"
+    },
+    "require": {
+        "php": ">=7"
+    },
+    "autoload": {
+    }
+}

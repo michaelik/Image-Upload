@@ -1,0 +1,80 @@
+<!doctype html>
+ <head>  
+  <meta name="viewport" content="initial-scale=1.0, user-scalable=no">  
+  <meta charset="utf-8">  
+  <title>Image Upload</title>  
+  <!-- Bootstrp Version v3.3.7-->
+  <link rel="stylesheet" href="assets/css/bootstrap.css">
+  <link rel="stylesheet" href="assets/css/sweetalert/sweetalert.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+
+ </head>  
+ <body>  
+  <div class="container">
+      <h3 align="center">IMAGE UPLOAD</h3>
+      <br>
+
+      <!-- Start- Delete multiple data button -->
+      <div class="col-lg-11 col-md-10 col-sm-5 col-xs-5">
+           <button type="button" name="delete_multiple_data" id="delete_multiple_data" class="btn btn-danger">  
+            Delete Multiple Data
+           </button>
+      </div>
+      <!-- Start- Delete multiple data button -->
+
+      <!-- Start-Add button(Modal pop up) -->
+      <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+         <button type="button" name="add" id="add" class="btn btn-success">Add</button>
+      </div>
+      <!-- End- add button(Modal pop up) -->
+
+      <br>
+      <br>  
+
+      <!-- Start- image datatable -->
+      <div id="image_data">
+      </div>
+      <!-- End- image datatable --> 
+  </div>
+  
+<!-- Insert Modal -->
+ <div id="imageModal" class="modal fade" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+     <div class="modal-dialog"> 
+         <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" id="close" class="close" data-dismiss="modal"  aria-label="Close">&times;</button>
+              <h4 class="modal-title"></h4>
+            </div>
+            <div class="modal-body">
+
+
+            <form id="image_form" method="post" enctype="multipart/form-data">
+                <p><label>Select Image</label></p>
+                <p><span id="error"></span></p>
+                <input type="file" name="image" id="image" class="form-control">
+                <!--Image ID -->
+                <input type="hidden" name="image_id" id="image_id" value="insert">
+                <!--Image Action-->
+                <input type="hidden" name="action" id="action" value="insert">
+
+            <div class="modal-footer">
+                <input type="submit" name="insert" id="insert" value="Insert" class="btn btn-info">
+                <button type="button" id="close" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+            </form>
+
+
+            
+            </div>
+        </div>
+     </div>
+  </div>
+<!-- End Insert Modal -->
+
+<!-- javascript files --bootstrap V3.3.7 -->
+<script src="assets/js/jquery-3.5.0.js"></script>
+<script src="assets/js/bootstrap.js"></script>
+<script src="assets/js/sweetalert/sweetalert.js"></script>
+<script type="text/javascript" src="assets/js/script.js"></script>
+</body>
+</html>
